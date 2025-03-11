@@ -39,7 +39,7 @@ body{
   background-repeat: no-repeat;
   padding: 10%;
   font-family: "Andale Mono", "Courier New", monospace;
-  font-size: 3rem
+  font-size: 1.5rem
 }
 h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
@@ -97,7 +97,9 @@ h1, h2, h3, h4 {
   padding: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  list-style: none;
+}
+#core-competencies {
+    list-style: none;
 }
 #experience-items {
   border: 2px solid rgba(0, 123, 255, 0.5);
