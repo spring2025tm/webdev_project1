@@ -112,7 +112,8 @@ h1, h2, h3, h4 {
 #experience-items ul li {
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
 #resume-header h1 {
   animation: float 3s ease-in-out infinite;
