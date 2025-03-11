@@ -54,4 +54,17 @@ h1, h2, h3 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   margin-bottom: 2rem;
+} 
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
