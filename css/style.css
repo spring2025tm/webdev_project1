@@ -98,8 +98,9 @@ h1, h2, h3, h4 {
   margin-bottom: 2rem;
   text-align: center;
 }
-#core-competencies ul li {
+#core-competencies ul {
     list-style: none;
+    padding: 0;
 }
 #experience-items {
   border: 2px solid rgba(0, 123, 255, 0.5);
@@ -111,6 +112,7 @@ h1, h2, h3, h4 {
 #experience-items ul li {
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 1rem;
 }
 #resume-header h1 {
   animation: float 3s ease-in-out infinite;
