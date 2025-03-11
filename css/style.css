@@ -142,7 +142,6 @@ footer p {
 }
 .card {
   padding: 1rem;
-  background-color: #f9f9f9;
 }
 .card p {
   font-size: 1rem;
@@ -155,6 +154,7 @@ footer p {
   justify-content: center;
   align-items: center;
   margin: 20px;
+  padding-bottom: 4rem;
 }
 iframe {
   max-width: 100%;
