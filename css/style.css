@@ -109,14 +109,14 @@ h1, h2, h3, h4 {
   margin-bottom: 2rem;
   text-align: center;
 }
-#experience-items {
+#experience-items ul {
   list-style: none;
+  line-height: 1.6;
 }
 #experience-items ul li {
   font-weight: bold;
   font-style: italic;
   margin-bottom: 1.6rem;
-  line-height: 1.6;
 }
 #resume-header h1 {
   animation: float 3s ease-in-out infinite;
