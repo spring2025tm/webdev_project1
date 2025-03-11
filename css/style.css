@@ -43,3 +43,15 @@ body{
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
+#intro {
+  border: 2px solid rgba(0, 123, 255, 0.5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+#cybersecurity-interest {
+  border: 2px solid rgba(0, 123, 255, 0.5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
