@@ -30,12 +30,13 @@ nav li a:hover {
   color: white; 
 }
 body{
+  display: flex;
+  flex-driection: column;
   background-image: url('../media/background.jpeg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  margin: 0;
   padding: 10%;
   font-family: "Andale Mono", "Courier New", monospace;
   font-size: 1rem
@@ -90,12 +91,13 @@ h1, h2, h3, h4 {
   padding: 2rem;
   margin-bottom: 2rem;
 }
-#core-compentencies {
+#core-competencies {
   border: 2px solid rgba(0, 123, 255, 0.5);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+  list-style: none;
 }
 #experience-items {
   border: 2px solid rgba(0, 123, 255, 0.5);
@@ -126,9 +128,9 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem 0;
-  position: fixed;
+  position: relative;
   width: 100%;
-  bottom: 0;
+  margin-top: auto;
 }
 footer p {
   margin: 0;
