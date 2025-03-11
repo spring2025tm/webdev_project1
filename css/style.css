@@ -56,6 +56,17 @@ h1, h2, h3 {
   padding: 2rem;
   margin-bottom: 2rem;
 } 
+#cybersecurity-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+#cybersecurity-image img {
+  max-width: 100%;
+  height: auto;
+}
+
 #image-grid {
   display: flex;
   justify-content: space-between;
@@ -86,4 +97,14 @@ h1, h2, h3 {
   color: #555;
   margin-bottom:1rem;
   word-wrap: break-word;
+}
+#video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+iframe {
+  max-width: 100%;
+  height: auto;
 }
