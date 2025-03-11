@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 nav  {
   width: 100%;
@@ -36,7 +36,7 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
+  padding: 10%;
   font-family: "Andale Mono", "Courier New", monospace;
   font-size: 1rem
 }
@@ -49,6 +49,20 @@ h1, h2, h3, h4 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   margin-bottom: 2rem;
+}
+#intro h1 {
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 #intro h2 {
   font-weight: bold;
@@ -120,7 +134,7 @@ footer p {
   margin: 0;
   font-size: 1rem;
 }
-#.all-plants h1 {
+.all-plants h1 {
   animation: float 3s ease-in-out infinite;
 }
 @keyframes float {
