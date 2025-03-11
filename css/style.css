@@ -39,7 +39,7 @@ body{
   background-repeat: no-repeat;
   padding: 10%;
   font-family: "Andale Mono", "Courier New", monospace;
-  font-size: 1.5rem
+  font-size: 1.1rem
 }
 h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
@@ -125,6 +125,9 @@ h1, h2, h3, h4 {
     transform: translateY(0);
   }
 }
+main {
+  flex-grow:1;
+}
 footer {
   background-color: #333;
   color: white;
@@ -132,7 +135,6 @@ footer {
   padding: 1rem 0;
   position: relative;
   width: 100%;
-  margin-top: auto;
 }
 footer p {
   margin: 0;
