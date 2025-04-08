@@ -197,12 +197,10 @@ footer p {
 #video-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding-bottom: 4rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 iframe {
   max-width: 100%;
   height: auto;
-  border: none;
 }
