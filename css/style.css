@@ -198,9 +198,12 @@ footer p {
   display: flex;
   justify-content: center;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  align-items: center;
+  margin: 20px;
+  padding-bottom: 4rem;
 }
 iframe {
   max-width: 100%;
   height: auto;
+  border: none;
 }
